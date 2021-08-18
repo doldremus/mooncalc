@@ -9,7 +9,7 @@ JavaScript library for calculating moon position, phases and zodiac sign, create
 ```js
 // get datas for current day :
 var date = new Date();
-var moonDatas = MoonCalc.datasForDay(date);
+var moonData = MoonCalc(date);
 ```
 
 ## Using in a server environment
